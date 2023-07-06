@@ -86,7 +86,7 @@
 
 /* this is about us section */
 
-.about_us_section h1{
+.main_heading{
     text-align: center;
     font-size: 60px;
     margin-top: 10px;
@@ -117,4 +117,28 @@
 .about_us_btn:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(39, 36, 36);
+}
+
+/* This is services section */
+
+.box{
+    width: 230px;
+    height: 280px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.box img{
+    width: 70px;
+}
+
+.services_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
 }
