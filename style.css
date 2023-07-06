@@ -6,16 +6,16 @@
     /* This is heading section */
 
 .nav_container{
-    background-color: black;
-    height: 100px;
+    background-color: rgb(41, 41, 41);
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .nav_logo img{
-    width: 300px;
-    height: 50px;
+    width: 200px;
+    height: 30px;
 }
 
 .nav_menu{
@@ -26,17 +26,60 @@
 
 .nav_menu li{
     margin: 15px;
-    padding: 5px; 
+    padding: 5px;
+    list-style-type: none; 
 }
 
 .nav_menu li a{
     font-size: 20px;
     color: white;
-    list-style-type: none;
     text-decoration: none;
-    transition: .5s;
+    transition: .3s;
 }
 
 .nav_menu li a:hover{
     color: goldenrod;
+}
+
+        /* This is banner section */
+
+.banner_container{
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.banner_container img{
+    width: 400px;
+}
+
+.banner_container .banner_text{
+    color: white;
+}
+
+.banner_text h1{
+    font-size: 55px;
+}
+
+.banner_text p {
+    font-size: 18px;
+}
+
+.btn{
+    padding: 20px;
+    background-color: rgb(255, 1, 1);
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: gray;
+    color: white;
 }
