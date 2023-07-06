@@ -121,14 +121,21 @@
 
 /* This is services section */
 
+#services{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    padding: 50px;
+}
+
 .box{
     width: 230px;
     height: 280px;
-    background-color: black;
     color: white;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
-    box-shadow: 5px 5px 15px gray;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+
+    
 }
 
 .box img{
@@ -140,5 +147,42 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
+  
+}
+
+.services_heading{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+/* This is footer section */
+
+footer{
+    background-color: rgb(12, 1, 1);
+    padding: 50px;
     
+}
+
+footer img{
+    width: 200px;
+    height: 30px;
+}
+
+.footer_container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+.footer_contain p{
+    text-align: left;
 }
